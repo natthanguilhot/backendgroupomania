@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
+    "username": "ncuser_3495",
+    "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
-    "host": "127.0.0.1",
+    "host": "mysql-groupomania-17379.nodechef.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
+    "username": "ncuser_3495",
+    "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
-    "host": "127.0.0.1",
+    "host": "mysql-groupomania-17379.nodechef.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "ncuser_3495",
+    "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
-    "host": "127.0.0.1",
+    "host": "mysql-groupomania-17379.nodechef.com",
     "dialect": "mysql"
   }
 }
