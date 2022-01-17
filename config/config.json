@@ -4,20 +4,23 @@
     "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
     "host": "mysql-groupomania-17379.nodechef.com",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "port":2495
   },
   "test": {
     "username": "ncuser_3495",
     "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
     "host": "mysql-groupomania-17379.nodechef.com",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "port":2495
   },
   "production": {
     "username": "ncuser_3495",
     "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
     "host": "mysql-groupomania-17379.nodechef.com",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "port":2495
   }
 }
