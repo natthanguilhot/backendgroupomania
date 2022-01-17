@@ -3,21 +3,21 @@
     "username": "ncuser_3495",
     "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
-    "host": "mysql-groupomania-17379.nodechef.com:2495",
+    "host": "mysql-groupomania-17379.nodechef.com",
     "dialect": "mysql"
   },
   "test": {
     "username": "ncuser_3495",
     "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
-    "host": "mysql-groupomania-17379.nodechef.com:2495",
+    "host": "mysql-groupomania-17379.nodechef.com",
     "dialect": "mysql"
   },
   "production": {
     "username": "ncuser_3495",
     "password": "0jnbzuLpBwI0A7spE9jivAGWKWbTuM",
     "database": "groupomania",
-    "host": "mysql-groupomania-17379.nodechef.com:2495",
+    "host": "mysql-groupomania-17379.nodechef.com",
     "dialect": "mysql"
   }
 }
