@@ -12,10 +12,10 @@ dotenv.config();
 const sequelize = new Sequelize('mysql://ncuser_3495:0jnbzuLpBwI0A7spE9jivAGWKWbTuM@mysql-groupomania-17379.nodechef.com:2495/groupomania');
 
 sequelize.authenticate()
-.then(() => console.log('Connexion à MySQL réussie !'))
+.then(() => console.log('Connection to MySQL successed !'))
 .catch((err) => {
     console.log(err);
-    console.log('Connexion à MySQL échoué !');
+    console.log('Connection to MySQL failed !');
 });
 
 app.use(express.json());
