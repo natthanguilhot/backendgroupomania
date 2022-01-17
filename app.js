@@ -9,10 +9,7 @@ const path = require('path');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const sequelize = new Sequelize(process.env.NAME_DATABASE, process.env.USER_DATABASE, process.env.PASSWORD_DATABASE, {
-    host: process.env.HOST,
-    dialect: 'mysql'
-});
+const sequelize = new Sequelize('mysql://ncuser_3495:password_hidden_on_purpose@mysql-groupomania-17379.nodechef.com:2495/groupomania');
 
 sequelize.authenticate()
 .then(() => console.log('Connexion à MySQL réussie !'))
