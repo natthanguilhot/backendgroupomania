@@ -10,7 +10,7 @@ const auth = require('../middleware/auth');
 router.post('/', auth, multer, postCtrl.createPost);
 
 // Get all posts
-router.get('/', auth, postCtrl.getAllPosts);
+router.get('/', postCtrl.getAllPosts);
 
 // Get one post
 router.post('/:id', auth, postCtrl.getOnePosts);
